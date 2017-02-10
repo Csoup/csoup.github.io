@@ -58,6 +58,6 @@ a {
   padding: 0px;
 }
 
-#welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+#welcome    { background-color: #4CB3FB;width:500px;height:200px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
 #welcome h1 { color: white;}
 #welcome p  { color: #5724FB;}
