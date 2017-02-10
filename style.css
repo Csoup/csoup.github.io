@@ -58,6 +58,7 @@ a {
   padding: 0px;
 }
 
+#font       { font: 'Montserrat-Regular'}
 #welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
 #welcome h1 { color: white;}
 #welcome p  { color: #5724FB;}
