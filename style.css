@@ -44,7 +44,7 @@ a {
   box-sizing: border-box;
   color: white;
   padding: 80px;
-  margin: auto;
+  margin-top: 28px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,19 +61,3 @@ a {
 #welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
 #welcome h1 { color: white;}
 #welcome p  { color: #5724FB;}
-
-#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;}}
-#labs h1 { color: white;}
-#labs p  { color: #00C67B;}
-#labs .but {
-  background-color: white;
-  color: #00C67B;
-}
-
-#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;}
-#scratch h1 { color: white;}
-#scratch p  { color: #FF245F;}
-#scratch .but {
-  background-color: white;
-  color: #FF245F;
-}
