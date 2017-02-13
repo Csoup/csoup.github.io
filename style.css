@@ -18,3 +18,9 @@ header {
 header img {
 	height: 18px;
 }
+h2 {
+	font-family:'Rubik', sans-serif;
+	font-weight: regular;
+}
+
+#welcome { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}
