@@ -21,7 +21,7 @@ header {
   margin-bottom: 0px;
 }
 header img {
-  height: 50px;
+  height: 100px;
 }
 #bottom {
   display: inline-block;
@@ -66,25 +66,9 @@ a {
   padding: 0px;
 }
 
-#welcome    { background-color: #4CB3FB;align: center;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}
+#welcome    { background-color: #4CB3FB;align-vertical:center;width:800px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
 #welcome h1 { color: white;}
 #welcome p  { color: #5724FB;}
 #welcome .but {
   background-color: white;
-}
-
-#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;margin-bottom: 83px;}
-#labs h1 { color: white;}
-#labs p  { color: #00C67B;}
-#labs .but {
-  background-color: white;
-  color: #00C67B;
-}
-
-#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;margin-bottom: 83px;}
-#scratch h1 { color: white;}
-#scratch p  { color: #FF245F;}
-#scratch .but {
-  background-color: white;
-  color: #FF245F;
 }
