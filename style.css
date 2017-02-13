@@ -66,7 +66,19 @@ a {
   padding: 0px;
 }
 
-#welcome    { background-color: #4CB3FB;align-vertical:center;width:800px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+#grad
+#welcome    { background: #3dadf7;
+  background: -webkit-linear-gradient(left, #3dadf7, #50e080);
+  background: -o-linear-gradient(right, , #50e080);
+  background: -moz-linear-gradient(right, #3dadf7, #50e080);
+  background: linear-gradient(to right, #3dadf7, #50e080);
+  align-vertical:center;
+  width:800px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 #welcome h1 { color: white;}
 #welcome h2 { color: #3187c4}
 #welcome p  { color: #5724FB;}
