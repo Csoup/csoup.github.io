@@ -24,60 +24,7 @@ h2 {
 	font-weight: regular;
 	font-size: 10px;
 }
-
-#welcome { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}
-
-html {
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  min-width: 900px;
-}
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-header {
-  width: auto;
-  padding: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
-}
-header img {
-  height: 18px;
-}
-#bottom {
-  display: inline-block;
-  width: 290px;
-  font-size: 12px;
-  margin-bottom: 80px;
-  color: #ccc;
-} #bottom a { color: #bbb; }
-a {
-  text-decoration: none;
-  color: white;
-}
-.but {
-  display: inline-block;
-  padding: 12px;
-  font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 4px;
-  text-align: center;
-  margin-top: 28px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 20px;
-  padding-left: 18px;
-  padding-right: 18px;
-}
-.contentDiv {
+contentDiv {
   box-sizing: border-box;
   color: white;
   padding: 80px;
@@ -85,32 +32,5 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.contentDiv h1 {
-  font-size: 30px;
-  margin: 8px;
-}
-.contentDiv p {
-  font-size: 14px;
-  margin: 0px;
-  padding: 0px;
-}
 
-#welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
-#welcome h1 { color: white;}
-#welcome p  { color: #5724FB;}
-
-#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;margin-bottom: 83px;}
-#labs h1 { color: white;}
-#labs p  { color: #00C67B;}
-#labs .but {
-  background-color: white;
-  color: #00C67B;
-}
-
-#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;margin-bottom: 83px;}
-#scratch h1 { color: white;}
-#scratch p  { color: #FF245F;}
-#scratch .but {
-  background-color: white;
-  color: #FF245F;
-}
+#welcome { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;}
