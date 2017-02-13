@@ -14,7 +14,11 @@ body {
 	text-align: center;
 }
 header {
-	
+  width: auto;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 header img {
 	height: 18px;
