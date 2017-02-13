@@ -66,11 +66,11 @@ a {
   padding: 0px;
 }
 
-#welcome    { background-color: #3dadf7;
-  background-color: -webkit-linear-gradient(left, #3dadf7, #50e080);
-  background-color: -o-linear-gradient(right, , #50e080);
-  background-color: -moz-linear-gradient(right, #3dadf7, #50e080);
-  background-color: linear-gradient(to right, #3dadf7, #50e080);
+#welcome    { background-color: #3dadf7; /* For browsers that do not support gradients */
+  background-color: -webkit-linear-gradient(left, #3dadf7, #50e080); /* For Safari 5.1 to 6.0 */
+  background-color: -o-linear-gradient(right, , #50e080); /* For Opera 11.1 to 12.0 */
+  background-color: -moz-linear-gradient(right, #3dadf7, #50e080); /* For Firefox 3.6 to 15 */
+  background-color: linear-gradient(to right, #3dadf7, #50e080); /* Standard syntax */
   align-vertical:center;
   width:800px;
   border-top-left-radius: 10px;
