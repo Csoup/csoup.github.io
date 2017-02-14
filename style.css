@@ -74,7 +74,7 @@ a {
   margin-right: auto;
 }
   
-#news       {background-color: #0c9ce4;
+#news       {background-color: #0ce482;
   align-vertical:center;
   width:350px;
   border-top-left-radius: 10px;
@@ -83,7 +83,7 @@ a {
   border-bottom-left-radius: 10px;
 }
 #news h3    { color: white;}
-#news h4    { color: #0573aa;}
+#news h4    { color: #05ad61;}
 
 #welcome    { background-color: #0c9ce4;
   align-vertical:center;
