@@ -65,6 +65,10 @@ a {
   margin: 0px;
   padding: 0px;
 }
+.news {
+  margin-top: 20px
+}
+  
 #news       {background-color: #0c9ce4;
   align-vertical:center;
   width:350px;
@@ -72,7 +76,6 @@ a {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  padding: 20px;
 }
 #news h3    { color: white;}
 #news h4    { color: #0573aa;}
