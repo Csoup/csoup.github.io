@@ -67,11 +67,7 @@ a {
 }
 
 #grad
-#welcome    { background: #3dadf7;
-  background: -webkit-linear-gradient(left, #3dadf7, #50e080);
-  background: -o-linear-gradient(right, , #50e080);
-  background: -moz-linear-gradient(right, #3dadf7, #50e080);
-  background: linear-gradient(to right, #3dadf7, #50e080);
+#welcome    { background-image: url("Welcome Picture.png");
   align-vertical:center;
   width:800px;
   border-top-left-radius: 10px;
