@@ -74,7 +74,7 @@ a {
   margin-right: auto;
 }
 .news hr {
-  color: white;
+  color: #016337;
   width: 300px;
 }
 
@@ -90,7 +90,7 @@ a {
 #news article    { color: white;
   font-size: 14px}
 #news h3     { font-family: 'Montserrat';}
-#news h4     { color: #07ba69}
+#news h4     { color: #039653}
 
 #welcome    { background-color: #0c9ce4;
   align-vertical:center;
