@@ -67,7 +67,7 @@ a {
 }
 
 #grad
-#welcome    { background-image: url("Welcome Picture.png");
+#welcome    { background-color: #4CB3FB;
   align-vertical:center;
   width:800px;
   border-top-left-radius: 10px;
