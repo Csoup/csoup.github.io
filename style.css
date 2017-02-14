@@ -69,7 +69,7 @@ a {
   box-sizing: border-box;
   color: white;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,7 +83,16 @@ a {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-#news h3    { color: white;}
+#news h3    { color: white;
+  font-size: 14px}
+#news       { background-color: white;
+  width: 250px;
+  height: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px
+}
 #news h4    { color: #05ad61;}
 
 #welcome    { background-color: #0c9ce4;
