@@ -77,7 +77,7 @@ a {
 #news       {background-color: #0ce482;
   align-vertical:center;
   width:350px;
-  width:200px;
+  height:200px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
