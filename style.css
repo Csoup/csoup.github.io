@@ -10,6 +10,8 @@ h1 {
 }
 body {
   background-image: url("Website BG.svg");
+  width: auto;
+  height: auto;
   margin: 0px;
   padding: 0px;
   text-align: center;
