@@ -9,9 +9,6 @@ h1 {
   font-weight: lighter;
 }
 body {
-  background-image: url("Website BG.svg");
-  width: auto;
-  height: auto;
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -77,10 +74,11 @@ a {
   margin-right: auto;
 }
 .news hr {
+  color: #016337;
   width: 300px;
 }
 
-#news       {background-color: white;
+#news       {background-color: #0ce482;
   align-vertical:center;
   width:350px;
   height:200px;
@@ -89,12 +87,12 @@ a {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-#news article    { color: #039653;
+#news article    { color: white;
   font-size: 14px}
 #news h3     { font-family: 'Montserrat';}
-#news h4     { color: #0ce482}
+#news h4     { color: #039653}
 
-#welcome    { background-color: white;
+#welcome    { background-color: #0c9ce4;
   align-vertical:center;
   width:700px;
   border-top-left-radius: 10px;
@@ -102,9 +100,9 @@ a {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-#welcome h1 { color: #0573aa;}
-#welcome h2 { color: #0c9ce4}
-#welcome p  { color: grey;}
+#welcome h1 { color: white;}
+#welcome h2 { color: #0573aa}
+#welcome p  { color: #5724FB;}
 #welcome .but {
-  background-color: #0573aa;
+  background-color: white;
 }
