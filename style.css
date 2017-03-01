@@ -74,12 +74,24 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.blog hr {
-  color: #016337;
-  width: 300px;
+.contactme {
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#blog       {background-color: #0ce482;
+#contactme  {
+  width:500px;
+  height:200px;
+  background-image: linear-gradient(52deg, #FF7BA2 6%, #748DD7 89%);
+}
+#contactme h3     { font-family: 'Montserrat';}
+#contactme h4     { color: #039653}
+  
+#blog       {
+  background-color: #0ce482;
   width:350px;
   height:200px;
   border-top-left-radius: 35px;
