@@ -99,7 +99,18 @@ font-size: 18px;
 color: #FFFFFF;
 }
 
-#blog article    { color: white;
-  font-size: 14px}
+#blog article    {
+/* Combined Shape: */
+background-image: linear-gradient(52deg, #5AE46A 6%, #3D95C7 89%);
+/* Rectangle 2: */
+background: #FFFFFF;
+/* [Title Here]: */
+font-family: Roboto-Medium;
+font-size: 48px;
+color: #000000;
+/* Lorem ipsum dolor si: */
+font-family: Roboto-Medium;
+font-size: 32px;
+color: #313131;}
 #blog h3     { font-family: 'Montserrat';}
 #blog h4     { color: #039653}
