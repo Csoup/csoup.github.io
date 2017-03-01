@@ -74,6 +74,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.blog h3 {
+  font-size: 30px;
+  margin: 8px;
+}
 .contactme {
   box-sizing: border-box;
   color: white;
