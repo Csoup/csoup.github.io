@@ -82,9 +82,9 @@ a {
 #blog       {background-color: #0ce482;
   width:350px;
   height:200px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 #blog article    { color: white;
   font-size: 20px}
@@ -94,9 +94,9 @@ a {
 #welcome    { background-color: #0c9ce4;
   align-vertical:center;
   width:800px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 #welcome h1 { color: white;}
 #welcome h2 { color: #0573aa}
