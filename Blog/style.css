@@ -78,11 +78,9 @@ a {
   width: 300px;
 }
 .blog h5 {
-  /* Home: */
 font-family: Roboto-Medium;
 font-size: 32px;
 color: #FFFFFF;
-/* Blog: */
 font-family: Roboto-Medium;
 font-size: 32px;
 color: #FFFFFF;
@@ -91,24 +89,17 @@ color: #FFFFFF;
 #blog       {
 width:1440px;
 height:260px;
-/* Rectangle: */
 background-image: linear-gradient(52deg, #73FF83 6%, #53B0E4 89%);
-/* Blog: */
 font-family: Montserrat-Bold;
 font-size: 18px;
 color: #FFFFFF;
 }
 
 #blog article    {
-/* Combined Shape: */
 background-image: linear-gradient(52deg, #5AE46A 6%, #3D95C7 89%);
-/* Rectangle 2: */
-background: #FFFFFF;
-/* [Title Here]: */
 font-family: Roboto-Medium;
 font-size: 48px;
 color: #000000;
-/* Lorem ipsum dolor si: */
 font-family: Roboto-Medium;
 font-size: 32px;
 color: #313131;}
