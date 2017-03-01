@@ -85,10 +85,13 @@ a {
 #contactme  {
   width:500px;
   height:200px;
-  background-image: linear-gradient(52deg, #FF7BA2 6%, #748DD7 89%);
+  background: #FFFAA8;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 #contactme h3     { font-family: 'Montserrat';}
-#contactme h4     { color: #039653}
+#contactme h4     { color: white}
   
 #blog       {
   background-color: #0ce482;
