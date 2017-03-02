@@ -2,7 +2,7 @@
 <html>
   <head>
     <style>
-.button {
+.button1 {
   padding:10px;
   font-size: 18px;
   text-align: center;
@@ -17,14 +17,53 @@
   margin:22.5% 45%;
 }
 
-.button:hover {background-color: #0ce482}
+.button1:hover {background-color: #0ce482}
 
-.button:active {
+.button1:active {
   background-color: #0ce482;
   box-shadow: 0 5px #07bf6b;
   transform: translateY(4px);
 }
+.button {
+  border-radius: 10px;
+  background-color: #0ce482;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 22.5% 45%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 </style>
 <body>
   <a href=https://scratch.mit.edu/users/Csoup><button class="button">This is a button</button></a>
+  <a href=https://scratch.mit.edu/users/Csoup><button class="button"><span>This is a button </span></button></a>
 </body>
