@@ -21,8 +21,8 @@ header {
   margin-bottom: 0px;
 }
 header img {
-  height: 140px;
-  padding: 20px;
+  height: 20px;
+  padding: 10px;
 }
 #bottom {
   display: inline-block;
@@ -95,9 +95,7 @@ a {
   box-sizing: border-box;
   color: white;
   padding: 10px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50% 50%;
 }
 .contactme h3 {
   font-size: 30px;
