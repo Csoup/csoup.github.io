@@ -35,6 +35,18 @@ a {
   text-decoration: none;
   color: grey;
 }
+.blog {
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .blog h4 {
+   font-size: 30px;
+   margin: 50% 50%;
+ }
 .but {
   display: inline-block;
   padding: 12px;
@@ -116,3 +128,15 @@ a {
 #welcome .but {
   background-color: white;
 }
+#blog       {
+ background-color: #0ce482;
+ width:350px;
+ height:200px;
+ border-top-left-radius: 35px;
+ border-top-right-radius: 35px;
+ border-bottom-left-radius: 35px;
+}
+#blog article    { color: white;
+ font-size: 20px}
+#blog h3     { font-family: 'Montserrat';}
+#blog h4     { color: #039653}
