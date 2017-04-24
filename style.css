@@ -57,7 +57,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
- }a
+ }
 .contentDiv {
   box-sizing: border-box;
   color: white;
@@ -70,10 +70,7 @@ a {
 .contentDiv h1 {
   font-size: 40px;
   padding: 4px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25% 25%
 }
 .contactme {
   box-sizing: border-box;
