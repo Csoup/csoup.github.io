@@ -21,7 +21,7 @@ header {
   margin-bottom: 0px;
 }
 header img {
-  height: 200px;
+  height: 150px;
   padding: 10px;
 }
 #bottom {
@@ -49,28 +49,15 @@ a {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px
  }
  .blog h3 {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
- }
-.but {
-  display: inline-block;
-  padding: 12px;
-  font-weight: bold;
-  font-size: 10px;
-  letter-spacing: 4px;
-  text-align: center;
-  margin-top: 28px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 20px;
-  padding-left: 18px;
-  padding-right: 18px;
-}
+  padding: 10px;
+ }a
 .contentDiv {
   box-sizing: border-box;
   color: white;
@@ -98,7 +85,10 @@ a {
 }
 .contactme h3 {
   font-size: 30px;
-  margin: 50% 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 #contactme  {
@@ -122,9 +112,7 @@ a {
 #welcome h1 { color: white;}
 #welcome h2 { color: #0573aa}
 #welcome p  { color: #5724FB;}
-#welcome .but {
-  background-color: white;
-}
+
 #blog       {
  background-color: #0ce482;
  width:350px;
