@@ -79,24 +79,11 @@ a {
 }
 .contentDiv h1 {
   font-size: 40px;
-  padding: 8px;
+  padding: 7px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-}
-.contentDiv h2 {
-   font-size: 20px;
-  padding: 8px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contentDiv p {
-  font-size: 14px;
-  margin: 0px;
-  padding: 0px;
 }
 .contactme {
   box-sizing: border-box;
