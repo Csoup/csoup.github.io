@@ -59,7 +59,7 @@ a {
   margin-right: auto;
 }
 .contentDiv h1 {
-  font-size: 30px;
+  font-size: 40px;
   padding: 8px;
   margin-top: auto;
   margin-bottom: auto;
@@ -79,18 +79,6 @@ a {
   margin: 0px;
   padding: 0px;
 }
-.blog {
-  box-sizing: border-box;
-  color: white;
-  padding: 10px;
-  margin: 8px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.blog h3 {
-  font-size: 30px;
-  margin: 50% 50%;
-}
 .contactme {
   box-sizing: border-box;
   color: white;
@@ -101,7 +89,7 @@ a {
 }
 .contactme h3 {
   font-size: 30px;
-  margin: 8px;
+  margin: 50% 50%;
 }
   
 #contactme  {
@@ -114,19 +102,6 @@ a {
 }
 #contactme h3     { font-family: 'Montserrat';}
 #contactme h4     { color: white}
-  
-#blog       {
-  background-color: #0ce482;
-  width:350px;
-  height:200px;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
-}
-#blog article    { color: white;
-  font-size: 20px}
-#blog h3     { font-family: 'Montserrat';}
-#blog h4     { color: #039653}
 
 #welcome    { background-color: #0c9ce4;
   height:200px;
