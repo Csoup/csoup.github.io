@@ -70,10 +70,7 @@ a {
 .contentDiv h1 {
   font-size: 40px;
   padding: 4px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50% 50%;
 }
 .contactme {
   box-sizing: border-box;
