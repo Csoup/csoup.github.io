@@ -47,6 +47,12 @@ a {
    font-size: 30px;
    margin: 50% 50%;
  }
+ .blog h3 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+ }
 .but {
   display: inline-block;
   padding: 12px;
