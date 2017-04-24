@@ -38,13 +38,13 @@ a {
 .blog {
   box-sizing: border-box;
   color: white;
-  padding: 10px;
+  padding: 5px;
   margin: 8px;
   margin-left: auto;
   margin-right: auto;
  }
  .blog h4 {
-   font-size: 30px;
+   font-size: 20px;
    margin: 50% 50%;
  }
  .blog h3 {
@@ -52,6 +52,7 @@ a {
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
  }
 .but {
   display: inline-block;
