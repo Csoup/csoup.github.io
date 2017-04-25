@@ -70,7 +70,7 @@ a {
 .contentDiv h1 {
   font-size: 40px;
   padding: 4px;
-  margin: 0% 25%
+  margin: 0% 20%
 }
 .contactme {
   box-sizing: border-box;
@@ -91,7 +91,7 @@ a {
 #contactme  {
   width:500px;
   height:200px;
-  background: #FFFAA8;
+  background: #c695f4;
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
