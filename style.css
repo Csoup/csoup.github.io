@@ -1,124 +1,204 @@
-html {
-  padding: 0px;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  min-width: 900px;
-}
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
-}
 body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 justus-pro;
+  color: rgb(0, 0, 0);
 }
-header {
-  width: auto;
-  padding: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
-}
-header img {
-  height: 150px;
-  padding: 10px;
-}
-#bottom {
-  display: inline-block;
-  width: 290px;
-  font-size: 12px;
-  margin-bottom: 80px;
-  color: #ccc;
-} #bottom a { color: #bbb; }
-a {
-  text-decoration: none;
-  color: grey;
-}
-.blog {
-  box-sizing: border-box;
-  color: white;
-  padding: 5px;
-  margin: 8px;
-  margin-left: auto;
-  margin-right: auto;
- }
- .blog h4 {
-  font-size: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px
- }
- .blog h3 {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
- }
-.contentDiv {
-  box-sizing: border-box;
-  color: white;
-  padding: 80px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contentDiv h1 {
-  font-size: 40px;
-  padding: 4px;
-  margin: 0% 20%
-}
-.contactme {
-  box-sizing: border-box;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contactme h3 {
-  font-size: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-  
-#contactme  {
-  width:500px;
-  height:200px;
-  background: #c695f4;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px;
-}
-#contactme h3     { font-family: 'Montserrat';}
-#contactme h4     { color: white}
 
-#welcome    { background-color: #0c9ce4;
-  height:200px;
-  width:800px;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+.element {
+  float: left;
 }
-#welcome h1 { color: white;}
-#welcome h2 { color: #0573aa}
-#welcome p  { color: #5724FB;}
 
-#blog       {
- background-color: #f495d7;
- width:350px;
- height:200px;
- border-top-left-radius: 35px;
- border-top-right-radius: 35px;
- border-bottom-left-radius: 35px;
+.image {
+  display: block;
+  float: left;
+  width: 202px;
+  height: auto;
+  margin: 30px 0 0 41.66667%;
+  overflow: hidden;
 }
-#blog article    { color: white;
- font-size: 20px}
-#blog h3     { font-family: 'Montserrat';}
-#blog h4     { color: #d67ebb}
+
+.text {
+  position: relative;
+  float: left;
+}
+
+.element-1 {
+  position: relative;
+  clear: both;
+  z-index: 0;
+  width: 42.3333333333%;
+  height: 162px;
+  margin: 29px 0 0 28.83073%;
+  border-radius: 10px;
+  background-color: rgb(100, 174, 219);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+}
+
+.element-2 {
+  width: 40.8333333333%;
+  height: 3px;
+  margin: 33px 0 0 29.58073%;
+  border-radius: 100px;
+  background-color: rgb(234, 234, 234);
+}
+
+.element-3 {
+  position: relative;
+  clear: both;
+  z-index: 3;
+  width: 18.75%;
+  height: 162px;
+  margin: 32px 0 0 30.39974%;
+  border-radius: 10px;
+  background-color: rgb(116, 222, 101);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+}
+
+.element-4 {
+  position: relative;
+  z-index: 5;
+  width: 18.6666666666%;
+  height: 162px;
+  margin: -162px 0 0 50.83203%;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 109);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+}
+
+.element-5 {
+  position: relative;
+  z-index: 7;
+  width: 39.1666666666%;
+  height: 99px;
+  margin: 20px 0 0 30.41667%;
+  border-radius: 10px;
+  background-color: rgb(221, 221, 221);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .5) inset;
+}
+
+.text-1 {
+  clear: both;
+  z-index: 1;
+  width: 12%;
+  min-height: 45px;
+  margin: -132px 0 0 44%;
+  font-size: 3.313em;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  z-index: 2;
+  width: 15.1666666666%;
+  min-height: 31px;
+  margin: -54px 0 0 42.41667%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  clear: both;
+  z-index: 4;
+  width: 8.4166666666%;
+  min-height: 45px;
+  margin: -107px 0 0 35.58203%;
+  font-size: 2.5em;
+  color: rgb(0, 0, 0);
+}
+
+.text-4 {
+  z-index: 6;
+  width: 6.8333333333%;
+  min-height: 45px;
+  margin: -107px 0 0 56.79948%;
+  font-size: 2.5em;
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  clear: both;
+  z-index: 9;
+  width: 25.8333333333%;
+  min-height: 45px;
+  margin: -61px 0 0 37.1992199999%;
+  font-size: 1.75em;
+  color: rgb(0, 0, 0);
+}
+
+.text-6 {
+  z-index: 8;
+  width: 9.1666666666%;
+  min-height: 31px;
+  margin: -82px 0 0 45.58203%;
+  font-size: 1em;
+  color: rgb(50, 50, 50);
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #3290b6;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-2 span {
+  font-style: normal;
+  color: rgb(47, 129, 161);
+}
+
+.text-1 span,
+.text-3 span,
+.text-4 span,
+.text-5 span {
+  font-style: inherit;
+  color: rgb(255, 255, 255);
+}
+
+.text-6 span {
+  font-style: inherit;
+  color: rgb(52, 52, 52);
+}
