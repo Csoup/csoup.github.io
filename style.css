@@ -18,8 +18,24 @@ body {
 }
 
 .text {
+  float: left;
+}
+
+._button {
+  display: block;
   position: relative;
   float: left;
+  clear: both;
+  z-index: 12;
+  width: 15.1666666666%;
+  height: 71px;
+  margin: -1px 0 0 42.41667%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-family: Montserrat;
+  font-size: 0.625em;
+  text-align: center;
+  color: rgb(89, 89, 89);
 }
 
 .element-1 {
@@ -31,7 +47,7 @@ body {
   margin: 29px 0 0 28.83073%;
   border-radius: 10px;
   background-color: rgb(100, 174, 219);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 5px 5px rgba(132, 132, 132, 0.5);
 }
 
 .element-2 {
@@ -51,7 +67,7 @@ body {
   margin: 32px 0 0 30.39974%;
   border-radius: 10px;
   background-color: rgb(116, 222, 101);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
 }
 
 .element-4 {
@@ -62,7 +78,7 @@ body {
   margin: -162px 0 0 50.83203%;
   border-radius: 10px;
   background-color: rgb(240, 240, 109);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 5px 5px rgba(137, 137, 137, 0.5);
 }
 
 .element-5 {
@@ -73,10 +89,38 @@ body {
   margin: 20px 0 0 30.41667%;
   border-radius: 10px;
   background-color: rgb(221, 221, 221);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .5) inset;
+  box-shadow: 0 5px 5px rgba(128, 128, 128, 0.5) inset;
+}
+
+.element-6 {
+  position: relative;
+  clear: both;
+  z-index: 13;
+  width: 26.4166666666%;
+  height: 366px;
+  margin: 46px 0 0 22.79948%;
+  border-radius: 10px;
+  background: url('../images/IMG_0137.JPG') rgb(116, 222, 101);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
+}
+
+.element-7 {
+  position: relative;
+  z-index: 14;
+  width: 26.4166666666%;
+  height: 366px;
+  margin: 46px 0 0 1.61198%;
+  border-radius: 10px;
+  background: url('../images/IMG_0501.JPG') rgb(116, 222, 101);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
 }
 
 .text-1 {
+  position: relative;
   clear: both;
   z-index: 1;
   width: 12%;
@@ -86,7 +130,21 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.text-10 {
+  position: relative;
+  clear: both;
+  z-index: 18;
+  width: 29.3333333333%;
+  min-height: 26px;
+  margin: 47px 0 0 35.58203125%;
+  font-family: Montserrat;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+
 .text-2 {
+  position: relative;
   z-index: 2;
   width: 15.1666666666%;
   min-height: 31px;
@@ -96,6 +154,7 @@ body {
 }
 
 .text-3 {
+  position: relative;
   clear: both;
   z-index: 4;
   width: 8.4166666666%;
@@ -106,15 +165,27 @@ body {
 }
 
 .text-4 {
+  position: relative;
   z-index: 6;
-  width: 6.8333333333%;
+  width: 9.3333333333%;
   min-height: 45px;
-  margin: -107px 0 0 56.79948%;
+  margin: -113px 0 0 55.58203%;
   font-size: 2.5em;
   color: rgb(0, 0, 0);
 }
 
 .text-5 {
+  position: relative;
+  z-index: 17;
+  margin: -57px 0 0 55.33073%;
+  font-family: Montserrat;
+  font-size: 0.688em;
+  text-align: center;
+  color: rgb(202, 206, 94);
+}
+
+.text-6 {
+  position: relative;
   clear: both;
   z-index: 9;
   width: 25.8333333333%;
@@ -124,13 +195,32 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.text-6 {
+.text-7 {
+  position: relative;
   z-index: 8;
   width: 9.1666666666%;
   min-height: 31px;
   margin: -82px 0 0 45.58203%;
   font-size: 1em;
   color: rgb(50, 50, 50);
+}
+
+.text-8 {
+  margin: 41px 0 0 37.83203%;
+  text-shadow: 0 2px 5px rgba(133, 133, 133, 0.5);
+  font-size: 1.688em;
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+.text-9 {
+  clear: both;
+  width: 27.2%;
+  min-height: 63px;
+  margin: 24px 0 0 37.1992199999%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .text a {
@@ -153,7 +243,6 @@ body {
   text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
-  color: #3290b6;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
@@ -193,12 +282,26 @@ body {
 .text-1 span,
 .text-3 span,
 .text-4 span,
-.text-5 span {
+.text-6 span {
   font-style: inherit;
   color: rgb(255, 255, 255);
 }
 
-.text-6 span {
+.text-2 a,
+.text-7 a {
+  color: #3290b6;
+}
+
+.text-7 span {
   font-style: inherit;
   color: rgb(52, 52, 52);
+}
+
+.text-8 a {
+  color: inherit;
+}
+
+.text-8 span {
+  font-style: inherit;
+  color: inherit;
 }
