@@ -202,13 +202,3 @@ body {
   font-style: inherit;
   color: rgb(52, 52, 52);
 }
-#bottom {
-  display: inline-block;
-  width: 290px;
-  font-size: 12px;
-  margin-bottom: 80px; margin-top: 80px;
-  color: #bbb;
-} #bottom a { color: #bbb; text-decoration: underline;}
-a {
-  text-decoration: none;
-  color: white;
