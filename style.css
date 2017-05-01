@@ -21,23 +21,6 @@ body {
   float: left;
 }
 
-._button {
-  display: block;
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 12;
-  width: 15.1666666666%;
-  height: 71px;
-  margin: -1px 0 0 42.41667%;
-  border-radius: 3px;
-  background-color: rgba(222, 222, 222, 0);
-  font-family: Montserrat;
-  font-size: 0.625em;
-  text-align: center;
-  color: rgb(89, 89, 89);
-}
-
 .element-1 {
   position: relative;
   clear: both;
@@ -95,27 +78,49 @@ body {
 .element-6 {
   position: relative;
   clear: both;
-  z-index: 13;
+  z-index: 12;
   width: 26.4166666666%;
   height: 366px;
   margin: 46px 0 0 22.79948%;
   border-radius: 10px;
-  background: url('IMG_0137.JPG') rgb(116, 222, 101);
-  background-size: cover;
-  background-position: center center;
+  background: none, url('../images/IMG_0137.JPG') rgb(116, 222, 101);
+  background-repeat: repeat, repeat;
+  background-size: auto auto, cover;
+  background-position: left top, center center;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
+}
+
+.element-6:hover {
+  background-image: url('../images/IMG_0732.JPG'), url('../images/IMG_0137.JPG');
+  background-size: cover, cover;
+  background-position: center center, center center;
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
+}
+
+.element-6:active {
   box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
 }
 
 .element-7 {
   position: relative;
-  z-index: 14;
+  z-index: 13;
   width: 26.4166666666%;
   height: 366px;
-  margin: 46px 0 0 1.61198%;
+  margin: 46px 0 0 1.6119791666%;
   border-radius: 10px;
-  background: url('IMG_0501.JPG') rgb(116, 222, 101);
-  background-size: cover;
-  background-position: center center;
+  background: none, url('../images/IMG_0501.JPG') rgb(116, 222, 101);
+  background-repeat: repeat, repeat;
+  background-size: auto auto, cover;
+  background-position: left top, center center;
+  background-attachment: scroll, scroll;
+  box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
+}
+
+.element-7:hover {
+  background-image: url('../images/IMG_0541(2).JPG'), url('../images/IMG_0501.JPG');
+  background-size: cover, cover;
+  background-position: center center, center center;
   box-shadow: 0 5px 5px rgba(135, 135, 135, 0.5);
 }
 
@@ -131,16 +136,24 @@ body {
 }
 
 .text-10 {
-  position: relative;
   clear: both;
-  z-index: 18;
-  width: 29.3333333333%;
-  min-height: 26px;
-  margin: 47px 0 0 35.58203125%;
+  width: 13.6%;
+  min-height: 104px;
+  margin: 37px 0 0 43.1992199999%;
   font-family: Montserrat;
   font-size: 1em;
   text-align: center;
-  color: rgb(58, 58, 58);
+  color: rgb(0, 0, 0);
+}
+
+.text-11 {
+  clear: both;
+  width: 15.1833333333%;
+  min-height: 102px;
+  margin: 28px 0 0 42.39974%;
+  font-family: Montserrat;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
 }
 
 .text-2 {
@@ -176,7 +189,7 @@ body {
 
 .text-5 {
   position: relative;
-  z-index: 17;
+  z-index: 16;
   margin: -57px 0 0 55.33073%;
   font-family: Montserrat;
   font-size: 0.688em;
@@ -223,32 +236,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.text a {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-color: transparent;
-  border-style: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  text-decoration: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
-  opacity: 1;
-  word-break: normal;
-  word-wrap: normal;
-  white-space: normal;
-}
-
+.text a,
 .text span {
   border-top-width: 0;
   border-right-width: 0;
@@ -262,7 +250,6 @@ body {
   border-bottom-left-radius: 0;
   background-color: transparent;
   font-family: inherit;
-  font-size: inherit;
   font-weight: inherit;
   text-transform: inherit;
   text-decoration: inherit;
@@ -274,8 +261,16 @@ body {
   white-space: normal;
 }
 
+.text-10 a,
+.text-10 span {
+  font-style: normal;
+  font-size: 0.563em;
+  color: inherit;
+}
+
 .text-2 span {
   font-style: normal;
+  font-size: inherit;
   color: rgb(47, 129, 161);
 }
 
@@ -284,24 +279,26 @@ body {
 .text-4 span,
 .text-6 span {
   font-style: inherit;
+  font-size: inherit;
   color: rgb(255, 255, 255);
 }
 
 .text-2 a,
 .text-7 a {
+  font-style: inherit;
+  font-size: inherit;
   color: #3290b6;
 }
 
 .text-7 span {
   font-style: inherit;
+  font-size: inherit;
   color: rgb(52, 52, 52);
 }
 
-.text-8 a {
-  color: inherit;
-}
-
+.text-8 a,
 .text-8 span {
   font-style: inherit;
+  font-size: inherit;
   color: inherit;
 }
