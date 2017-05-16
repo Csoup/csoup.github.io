@@ -1,0 +1,141 @@
+html {
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  min-width: 900px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+header {
+  width: auto;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+header img {
+  height: 200px;
+  padding: 10px;
+}
+#bottom {
+  display: inline-block;
+  width: 290px;
+  font-size: 12px;
+  margin-bottom: 80px;
+  color: #ccc;
+} #bottom a { color: #bbb; }
+a {
+  text-decoration: none;
+  color: grey;
+}
+.but {
+  display: inline-block;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 28px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.contentDiv {
+  box-sizing: border-box;
+  color: white;
+  padding: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentDiv h1 {
+  font-size: 30px;
+  padding: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentDiv h2 {
+   font-size: 20px;
+  padding: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentDiv p {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.blog {
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog h3 {
+  font-size: 30px;
+  margin: 8px 4px;
+}
+.contactme {
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  margin: 50% 50%;
+}
+.contactme h3 {
+  font-size: 30px;
+  margin: 8px;
+}
+  
+#contactme  {
+  width:500px;
+  height:200px;
+  background: #FFFAA8;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+#contactme h3     { font-family: 'Montserrat';}
+#contactme h4     { color: white}
+  
+#blog       {
+  background-color: #0ce482;
+  width:350px;
+  height:200px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+#blog article    { color: white;
+  font-size: 20px}
+#blog h3     { font-family: 'Montserrat';}
+#blog h4     { color: #039653}
+
+#welcome    { background-color: #0c9ce4;
+  height:200px;
+  width:800px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+#welcome h1 { color: white;}
+#welcome h2 { color: #0573aa}
+#welcome p  { color: #5724FB;}
+#welcome .but {
+  background-color: white;
+}
